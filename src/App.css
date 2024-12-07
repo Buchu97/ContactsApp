@@ -95,3 +95,7 @@ main h1 {
 .button:hover {
   background-color: #72a3f9;
 }
+
+.address {
+  padding-left: 20px;
+}

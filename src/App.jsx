@@ -49,7 +49,9 @@ function App() {
               {expandedUserIds.includes(contact.id) && (
                 <div>
                   <p><strong>Username:</strong> {contact.username}</p>
-                  <p><strong>Address:</strong> {contact.address.street}, {contact.address.suite}, {contact.address.city}, {contact.address.zipcode}</p>
+                  <p><strong>Address:</strong></p>
+                  <p className="address">{contact.address.suite}, {contact.address.street}</p>
+                  <p className="address">{contact.address.city}, {contact.address.zipcode}</p>
                   <p><strong>Geo:</strong> {contact.address.geo.lat}, {contact.address.geo.lng}</p>
                   <p><strong>Website:</strong> {contact.website}</p>
                   <p><strong>Company:</strong> {contact.company.name}</p>
@@ -71,3 +73,5 @@ function App() {
 }
 
 export default App; // Exports App
+
+

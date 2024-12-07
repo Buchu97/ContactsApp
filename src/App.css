@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -64,15 +63,35 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 25px;
   color: #0056b3;
+  padding-bottom: 15px;
 }
 
 p {
   font-size: 16px;
   color: #666;
+  padding-bottom: 10px;
 }
 main h1 {
   border-bottom: 2px solid #7741b6;  
   padding-bottom: 10px;  
+}
+
+.button {
+  background-color: #6171ea; 
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #72a3f9;
 }
